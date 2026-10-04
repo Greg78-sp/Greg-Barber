@@ -60,8 +60,8 @@ display:inline-block;
 }
 </style>
  
-https://wa.me/32496726297
-BOOK APPOINTMENT
+<a href="https://wa.me/32496726297" target="_blank" class="btn">
+Book on WhatsApp
 </a>
  
 <h3>Services</h3>
