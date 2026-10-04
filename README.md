@@ -49,8 +49,19 @@ margin-top:35px;
 Precision. Style. Confidence.
 </p>
  
-<a href="https://wa.me/32496726297" target="_blank" class="btn">
-Book on WhatsApp
+<style>
+.btn{
+background:black;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:25px;
+display:inline-block;
+}
+</style>
+ 
+https://wa.me/32496726297
+BOOK APPOINTMENT
 </a>
  
 <h3>Services</h3>
