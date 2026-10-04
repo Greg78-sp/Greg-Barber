@@ -13,10 +13,12 @@ line-height:1.8;
  
 h1{
 font-size:36px;
+margin-bottom:5px;
 }
  
 .tagline{
 color:#666;
+margin-bottom:25px;
 }
  
 .btn{
@@ -27,6 +29,14 @@ text-decoration:none;
 padding:12px 25px;
 border-radius:25px;
 margin:20px 0;
+}
+ 
+.btn:hover{
+background:#333;
+}
+ 
+h3{
+margin-top:35px;
 }
 </style>
 </head>
@@ -40,7 +50,7 @@ Precision. Style. Confidence.
 </p>
  
 <a href="https://wa.me/32496726297" target="_blank" class="btn">
-📱 Book on WhatsApp
+📱 BOOK APPOINTMENT
 </a>
  
 <h3>Services</h3>
@@ -52,10 +62,8 @@ Precision. Style. Confidence.
  
 <h3>Contact</h3>
  
-<p>📞 0496726297</p>
- 
+<p>📞 0496 72 62 97</p>
 <p>✉️ george_78_al@hotmail.com</p>
- 
 <p>📍 Vilvoorde, Belgium</p>
  
 </body>
