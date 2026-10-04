@@ -46,7 +46,7 @@ margin-top:35px;
 <h1>GJERGJ BARBER</h1>
  
 <p class="tagline">
-Precision. Style. Confidence.
+<strong>Precision. Style. Confidence.</strong>
 </p>
  
  
