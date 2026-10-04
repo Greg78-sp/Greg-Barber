@@ -39,7 +39,9 @@ margin:20px 0;
 Precision. Style. Confidence.
 </p>
  
-https://wa.me/32496726297
+<a href="https://wa.me/32496726297" target="_blank" class="btn">
+BOOK APPOINTMENT
+</a>
 BOOK APPOINTMENT
 </a>
  
