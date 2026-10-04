@@ -40,9 +40,7 @@ Precision. Style. Confidence.
 </p>
  
 <a href="https://wa.me/32496726297" target="_blank" class="btn">
-BOOK APPOINTMENT
-</a>
-BOOK APPOINTMENT
+📱 Book on WhatsApp
 </a>
  
 <h3>Services</h3>
