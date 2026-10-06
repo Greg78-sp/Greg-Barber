@@ -1,7 +1,5 @@
-# Gjergj Barber
+# Greg Tuinman/Jardinier
  
-Professional barber services in Belgium.
- 
-Precision. Style. Confidence.
+Professional garden services in Belgium.
  
 Book on WhatsApp: 0496 72 62 97
