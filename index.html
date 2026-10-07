@@ -14,7 +14,7 @@ font-family:Arial,sans-serif;
 }
  
 .page{
-max-width:1200px;
+max-width:1400px;
 margin:auto;
 padding:30px;
 text-align:center;
@@ -24,21 +24,12 @@ h1{
 font-size:60px;
 color:#FFD700;
 text-shadow:0 0 15px rgba(255,215,0,0.8);
-margin-bottom:10px;
 }
  
 .tagline{
 font-size:22px;
 color:#FFD700;
 margin-bottom:30px;
-}
- 
-hr{
-border:none;
-height:2px;
-background:#FFD700;
-width:300px;
-margin:40px auto;
 }
  
 .btn{
@@ -50,54 +41,61 @@ padding:15px 35px;
 border-radius:30px;
 font-size:18px;
 font-weight:bold;
-margin-bottom:30px;
+margin-bottom:40px;
 }
  
-.btn:hover{
-background:#1da851;
-}
- 
-.columns{
-display:flex;
-justify-content:space-between;
-align-items:flex-start;
-gap:30px;
-margin-top:30px;
+.section{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+margin:40px 0;
 }
  
 .box{
-width:45%;
 background:#102040;
 border:2px solid #FFD700;
 border-radius:15px;
 padding:25px;
 box-shadow:0 0 15px rgba(255,215,0,0.3);
+text-align:left;
 }
  
 .box h3{
 color:#FFD700;
-font-size:28px;
-margin-bottom:20px;
+font-size:30px;
+margin-top:0;
+text-align:center;
 }
  
 .box p{
 color:#FFD700;
-font-size:18px;
+font-size:20px;
+}
+ 
+.contact{
+margin-top:50px;
 }
  
 .contact h3{
 color:#FFD700;
+font-size:30px;
 }
  
 .contact p{
 color:#FFD700;
-font-size:18px;
+font-size:20px;
 }
  
 .footer{
 margin-top:40px;
 color:#FFD700;
 font-size:14px;
+}
+ 
+@media(max-width:900px){
+.section{
+grid-template-columns:1fr;
+}
 }
  
 </style>
@@ -111,7 +109,7 @@ font-size:14px;
 <h1>🌿 GREG GARDEN SERVICES 🌿</h1>
  
 <p class="tagline">
-<strong>Professional Garden Maintenance</strong><br>
+Professional Garden Maintenance<br>
 Professioneel tuinonderhoud • Entretien de jardin
 </p>
  
@@ -119,12 +117,9 @@ Professioneel tuinonderhoud • Entretien de jardin
 📱 Request a Quote
 </a>
  
-<hr>
- 
-<div class="columns">
+<div class="section">
  
 <div class="box">
- 
 <h3>🇳🇱 Diensten</h3>
  
 <p>🌱 Gras maaien</p>
@@ -137,7 +132,6 @@ Professioneel tuinonderhoud • Entretien de jardin
 </div>
  
 <div class="box">
- 
 <h3>🇫🇷 Services</h3>
  
 <p>🌱 Tonte de pelouse</p>
@@ -151,12 +145,9 @@ Professioneel tuinonderhoud • Entretien de jardin
  
 </div>
  
-<hr>
- 
-<div class="columns">
+<div class="section">
  
 <div class="box">
- 
 <h3>🇳🇱 Prijzen</h3>
  
 <p>Gras maaien ........ vanaf €25</p>
@@ -167,7 +158,6 @@ Professioneel tuinonderhoud • Entretien de jardin
 </div>
  
 <div class="box">
- 
 <h3>🇫🇷 Tarifs</h3>
  
 <p>Tonte ........ à partir de €25</p>
@@ -179,16 +169,12 @@ Professioneel tuinonderhoud • Entretien de jardin
  
 </div>
  
-<hr>
- 
 <div class="contact">
  
 <h3>📞 Contact</h3>
  
 <p>📱 0496 72 62 97</p>
- 
 <p>✉️ george_78_al@hotmail.com</p>
- 
 <p>📍 Vilvoorde • Koningsloo • Grimbergen • Meise</p>
  
 </div>
