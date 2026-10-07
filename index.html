@@ -5,7 +5,7 @@
  
 <style>
  
-html,body{
+html, body{
 margin:0;
 padding:0;
 background:#0a1931;
@@ -14,88 +14,83 @@ font-family:Arial,sans-serif;
 }
  
 .page{
+width:90%;
 max-width:1400px;
 margin:auto;
 padding:30px;
-text-align:center;
 }
  
 h1{
+text-align:center;
 font-size:60px;
 color:#FFD700;
 text-shadow:0 0 15px rgba(255,215,0,0.8);
 }
  
 .tagline{
+text-align:center;
 font-size:22px;
-color:#FFD700;
 margin-bottom:30px;
 }
  
 .btn{
-display:inline-block;
+display:block;
+width:220px;
+margin:20px auto;
+text-align:center;
 background:#25D366;
 color:white;
 text-decoration:none;
-padding:15px 35px;
+padding:15px;
 border-radius:30px;
-font-size:18px;
 font-weight:bold;
-margin-bottom:40px;
 }
  
-.section{
-display:grid;
-grid-template-columns:1fr 1fr;
+.row{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
 gap:40px;
-margin:40px 0;
+margin-top:40px;
 }
  
-.box{
-background:#102040;
-border:2px solid #FFD700;
-border-radius:15px;
-padding:25px;
-box-shadow:0 0 15px rgba(255,215,0,0.3);
-text-align:left;
+.column{
+width:48%;
 }
  
-.box h3{
+h3{
 color:#FFD700;
-font-size:30px;
-margin-top:0;
-text-align:center;
+font-size:32px;
+margin-bottom:20px;
 }
  
-.box p{
+p{
 color:#FFD700;
 font-size:20px;
+line-height:1.8;
 }
  
 .contact{
+text-align:center;
 margin-top:50px;
 }
  
-.contact h3{
-color:#FFD700;
-font-size:30px;
-}
- 
-.contact p{
-color:#FFD700;
-font-size:20px;
-}
- 
 .footer{
-margin-top:40px;
-color:#FFD700;
+text-align:center;
+margin-top:30px;
 font-size:14px;
 }
  
-@media(max-width:900px){
-.section{
-grid-template-columns:1fr;
+@media (max-width:900px){
+ 
+.row{
+flex-direction:column;
 }
+ 
+.column{
+width:100%;
+}
+ 
 }
  
 </style>
@@ -117,9 +112,10 @@ Professioneel tuinonderhoud • Entretien de jardin
 📱 Request a Quote
 </a>
  
-<div class="section">
+<div class="row">
  
-<div class="box">
+<div class="column">
+ 
 <h3>🇳🇱 Diensten</h3>
  
 <p>🌱 Gras maaien</p>
@@ -131,7 +127,8 @@ Professioneel tuinonderhoud • Entretien de jardin
  
 </div>
  
-<div class="box">
+<div class="column">
+ 
 <h3>🇫🇷 Services</h3>
  
 <p>🌱 Tonte de pelouse</p>
@@ -145,9 +142,10 @@ Professioneel tuinonderhoud • Entretien de jardin
  
 </div>
  
-<div class="section">
+<div class="row">
  
-<div class="box">
+<div class="column">
+ 
 <h3>🇳🇱 Prijzen</h3>
  
 <p>Gras maaien ........ vanaf €25</p>
@@ -157,7 +155,8 @@ Professioneel tuinonderhoud • Entretien de jardin
  
 </div>
  
-<div class="box">
+<div class="column">
+ 
 <h3>🇫🇷 Tarifs</h3>
  
 <p>Tonte ........ à partir de €25</p>
