@@ -23,6 +23,14 @@ text-align:center;
 h1{
 font-size:60px;
 color:#FFD700;
+text-shadow:0 0 15px rgba(255,215,0,0.7);
+margin-bottom:10px;
+}
+ 
+.tagline{
+color:white;
+font-size:22px;
+margin-bottom:30px;
 }
  
 .btn{
@@ -30,15 +38,67 @@ display:inline-block;
 background:#25D366;
 color:white;
 text-decoration:none;
-padding:15px 30px;
+padding:15px 35px;
 border-radius:30px;
+font-weight:bold;
+font-size:18px;
+margin-bottom:40px;
+}
+ 
+.btn:hover{
+background:#1da851;
+}
+ 
+.columns{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+margin-top:30px;
 }
  
 .box{
-border:2px solid #FFD700;
-padding:20px;
-margin:20px 0;
+flex:1;
+min-width:420px;
+max-width:500px;
 background:#102040;
+border:2px solid #FFD700;
+border-radius:15px;
+padding:25px;
+box-shadow:0 0 15px rgba(255,215,0,0.2);
+}
+ 
+.box h3{
+color:#FFD700;
+margin-bottom:20px;
+font-size:28px;
+}
+ 
+.box p{
+color:#FFD700;
+font-size:18px;
+}
+ 
+hr{
+border:none;
+height:2px;
+background:#FFD700;
+width:300px;
+margin:40px auto;
+}
+ 
+.contact h3{
+color:#FFD700;
+}
+ 
+.contact p{
+color:white;
+}
+ 
+.footer{
+margin-top:40px;
+color:#FFD700;
+font-size:14px;
 }
  
 </style>
@@ -51,8 +111,8 @@ background:#102040;
  
 <h1>🌿 GREG GARDEN SERVICES 🌿</h1>
  
-<p>
-Professional Garden Maintenance<br>
+<p class="tagline">
+<strong>Professional Garden Maintenance</strong><br>
 Professioneel tuinonderhoud • Entretien de jardin
 </p>
  
@@ -60,18 +120,82 @@ Professioneel tuinonderhoud • Entretien de jardin
 📱 Request a Quote
 </a>
  
+<hr>
+ 
+<div class="columns">
+ 
 <div class="box">
+ 
 <h3>🇳🇱 Diensten</h3>
+ 
 <p>🌱 Gras maaien</p>
 <p>🌳 Hagen snoeien</p>
 <p>🌿 Tuinonderhoud</p>
+<p>🍂 Tuinopruiming</p>
+<p>🌷 Onkruid verwijderen</p>
+<p>🌲 Boomverzorging</p>
+ 
 </div>
  
 <div class="box">
+ 
 <h3>🇫🇷 Services</h3>
+ 
 <p>🌱 Tonte de pelouse</p>
 <p>🌳 Taille de haies</p>
 <p>🌿 Entretien de jardin</p>
+<p>🍂 Nettoyage de jardin</p>
+<p>🌷 Désherbage</p>
+<p>🌲 Entretien des arbres</p>
+ 
+</div>
+ 
+</div>
+ 
+<hr>
+ 
+<div class="columns">
+ 
+<div class="box">
+ 
+<h3>🇳🇱 Prijzen</h3>
+ 
+<p>Gras maaien ........ vanaf €25</p>
+<p>Hagen snoeien ...... vanaf €40</p>
+<p>Tuinonderhoud ...... vanaf €30/u</p>
+<p>Tuinopruiming ...... vanaf €60</p>
+ 
+</div>
+ 
+<div class="box">
+ 
+<h3>🇫🇷 Tarifs</h3>
+ 
+<p>Tonte ........ à partir de €25</p>
+<p>Taille ........ à partir de €40</p>
+<p>Entretien .... à partir de €30/h</p>
+<p>Nettoyage .... à partir de €60</p>
+ 
+</div>
+ 
+</div>
+ 
+<hr>
+ 
+<div class="contact">
+ 
+<h3>📞 Contact</h3>
+ 
+<p>0496 72 62 97</p>
+ 
+<p>✉️ george_78_al@hotmail.com</p>
+ 
+<p>📍 Vilvoorde • Koningsloo • Grimbergen • Meise</p>
+ 
+</div>
+ 
+<div class="footer">
+© Greg Garden Services
 </div>
  
 </div>
